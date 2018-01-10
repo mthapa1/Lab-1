@@ -1,0 +1,45 @@
+﻿Build started 2/6/2016 12:24:50 PM.
+     1>Project "D:\Users\Madan\Desktop\lab1\lab1\lab1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt thapaLab01b.cpp
+         thapaLab01b.cpp
+     1>d:\users\madan\desktop\lab1\lab1\thapalab01b.cpp(23): error C2664: 'void std::vector<std::string,std::allocator<_Ty>>::push_back(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)': cannot convert argument 1 from 'int' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+         d:\users\madan\desktop\lab1\lab1\thapalab01b.cpp(23): note: Reason: cannot convert from 'int' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+         d:\users\madan\desktop\lab1\lab1\thapalab01b.cpp(23): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+     1>d:\users\madan\desktop\lab1\lab1\thapalab01b.cpp(27): error C2678: binary '!=': no operator found which takes a left-hand operand of type 'std::vector<std::string,std::allocator<_Ty>>' (or there is no acceptable conversion)
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(409): note: could be 'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept'
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(402): note: or       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept'
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(395): note: or       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept'
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(388): note: or       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept'
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(356): note: or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) throw()'
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(351): note: or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) throw()'
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(346): note: or       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) throw()'
+         d:\users\madan\desktop\lab1\lab1\thapalab01b.cpp(27): note: while trying to match the argument list '(std::vector<std::string,std::allocator<_Ty>>, int)'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>d:\users\madan\desktop\lab1\lab1\thapalab01b.cpp(27): error C2446: '!=': no conversion from 'int' to 'std::vector<std::string,std::allocator<_Ty>>'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+         d:\users\madan\desktop\lab1\lab1\thapalab01b.cpp(27): note: Constructor for class 'std::vector<std::string,std::allocator<_Ty>>' is declared 'explicit'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>d:\users\madan\desktop\lab1\lab1\thapalab01b.cpp(27): error C2088: '!=': illegal for class
+     1>Done Building Project "D:\Users\Madan\Desktop\lab1\lab1\lab1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.30
